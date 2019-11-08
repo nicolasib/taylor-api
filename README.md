@@ -10,9 +10,10 @@ Pronto! A API já está pronta para receber suas requisições.
 >Lembrando que o banco de dados da API está na plataforma Atlas do MongoDB. Ou seja, na nuvem!
 ---
 ## O que tem na API?
-Nesta api você vai encontrar informações de todos os álbuns da Taylor Swift.
+Nesta API você vai encontrar informações de todos os álbuns da Taylor Swift.
 
 Todos os **álbuns** possuem as seguintes informações:
+
 | Chave | Valor | 
 | ----- | ----- |
 | albumName | String com o nome do álbum |
@@ -87,10 +88,10 @@ A url base é ```http://localhost:8000```
 | ---- | ------------------- | -------- |
 | /listAlbuns | JSON com uma chave "query". Esta chave pode receber os valores 'all' ou o nome de um álbum. *Requisição POST* | Caso ```query: 'all'```, retornará um objeto com todos os álbuns. Caso ```query: 'nomeDoAlbum'```, retornará informações apenas do álbum específicado. *Caso o valor de query seja inválido, retornará um JSON com a chave 'error'.* |
 
-*Os albuns álbuns são:*
+*Os álbuns são:*
 >RED, 1989, reputation, Lover, Taylor Swift, Fearless e Speak Now
 
-####Requisição na prática
+#### Requisição na prática
 Voltando ao Axios, você fará uma requisição POST na rota acima:
 ``` axios.post('localhost:8000/listAlbuns', { query: 'all' }) ```
 
