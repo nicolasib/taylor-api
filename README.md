@@ -91,8 +91,7 @@ A url base é ```http://localhost:8000```
 *Os albuns álbuns são:*
 >RED, 1989, reputation, Lover, Taylor Swift, Fearless e Speak Now
 
-####Requisição na prática
-
+#### Requisição na prática
 Voltando ao Axios, você fará uma requisição POST na rota acima:
 ``` axios.post('localhost:8000/listAlbuns', { query: 'all' }) ```
 
