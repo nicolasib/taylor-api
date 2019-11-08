@@ -13,6 +13,7 @@ Pronto! A API já está pronta para receber suas requisições.
 Nesta api você vai encontrar informações de todos os álbuns da Taylor Swift.
 
 Todos os **álbuns** possuem as seguintes informações:
+
 | Chave | Valor | 
 | ----- | ----- |
 | albumName | String com o nome do álbum |
